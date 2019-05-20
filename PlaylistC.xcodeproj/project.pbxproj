@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		E4E2B1D322930926001E28C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2B1D222930926001E28C1 /* AppDelegate.m */; };
-		E4E2B1D622930926001E28C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2B1D522930926001E28C1 /* ViewController.m */; };
 		E4E2B1D922930927001E28C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E2B1D722930927001E28C1 /* Main.storyboard */; };
 		E4E2B1DB22930929001E28C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E2B1DA22930929001E28C1 /* Assets.xcassets */; };
 		E4E2B1DE22930929001E28C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E2B1DC22930929001E28C1 /* LaunchScreen.storyboard */; };
 		E4E2B1E122930929001E28C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2B1E022930929001E28C1 /* main.m */; };
+		E4E2B1EA22930BCB001E28C1 /* WAMSong.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2B1E922930BCB001E28C1 /* WAMSong.m */; };
+		E4E2B1EE22930C49001E28C1 /* WAMPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2B1ED22930C49001E28C1 /* WAMPlaylist.m */; };
+		E4E2B1F1229316C1001E28C1 /* WAMPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2B1F0229316C1001E28C1 /* WAMPlaylistController.m */; };
+		E4E2B1F722932276001E28C1 /* WAMPlaylistListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2B1F622932276001E28C1 /* WAMPlaylistListTableViewController.m */; };
+		E4E2B22222933AA1001E28C1 /* WAMDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2B22122933AA1001E28C1 /* WAMDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4E2B1CE22930926001E28C1 /* PlaylistC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E2B1D122930926001E28C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4E2B1D222930926001E28C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4E2B1D422930926001E28C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4E2B1D522930926001E28C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4E2B1D822930927001E28C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4E2B1DA22930929001E28C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4E2B1DD22930929001E28C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4E2B1DF22930929001E28C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4E2B1E022930929001E28C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4E2B1E822930BCB001E28C1 /* WAMSong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMSong.h; sourceTree = "<group>"; };
+		E4E2B1E922930BCB001E28C1 /* WAMSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMSong.m; sourceTree = "<group>"; };
+		E4E2B1EC22930C49001E28C1 /* WAMPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMPlaylist.h; sourceTree = "<group>"; };
+		E4E2B1ED22930C49001E28C1 /* WAMPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMPlaylist.m; sourceTree = "<group>"; };
+		E4E2B1EF229316C1001E28C1 /* WAMPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMPlaylistController.h; sourceTree = "<group>"; };
+		E4E2B1F0229316C1001E28C1 /* WAMPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMPlaylistController.m; sourceTree = "<group>"; };
+		E4E2B1F522932276001E28C1 /* WAMPlaylistListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMPlaylistListTableViewController.h; sourceTree = "<group>"; };
+		E4E2B1F622932276001E28C1 /* WAMPlaylistListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMPlaylistListTableViewController.m; sourceTree = "<group>"; };
+		E4E2B22022933AA1001E28C1 /* WAMDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMDetailTableViewController.h; sourceTree = "<group>"; };
+		E4E2B22122933AA1001E28C1 /* WAMDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +70,65 @@
 		E4E2B1D022930926001E28C1 /* PlaylistC */ = {
 			isa = PBXGroup;
 			children = (
+				E4E2B1D722930927001E28C1 /* Main.storyboard */,
+				E4E2B1E722930AA5001E28C1 /* Resources */,
+				E4E2B1EB22930BD4001E28C1 /* Models */,
+				E4E2B1F2229316C6001E28C1 /* Controllers */,
+			);
+			path = PlaylistC;
+			sourceTree = "<group>";
+		};
+		E4E2B1E722930AA5001E28C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E4E2B1D122930926001E28C1 /* AppDelegate.h */,
 				E4E2B1D222930926001E28C1 /* AppDelegate.m */,
-				E4E2B1D422930926001E28C1 /* ViewController.h */,
-				E4E2B1D522930926001E28C1 /* ViewController.m */,
-				E4E2B1D722930927001E28C1 /* Main.storyboard */,
 				E4E2B1DA22930929001E28C1 /* Assets.xcassets */,
 				E4E2B1DC22930929001E28C1 /* LaunchScreen.storyboard */,
 				E4E2B1DF22930929001E28C1 /* Info.plist */,
 				E4E2B1E022930929001E28C1 /* main.m */,
 			);
-			path = PlaylistC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4E2B1EB22930BD4001E28C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4E2B1E822930BCB001E28C1 /* WAMSong.h */,
+				E4E2B1E922930BCB001E28C1 /* WAMSong.m */,
+				E4E2B1EC22930C49001E28C1 /* WAMPlaylist.h */,
+				E4E2B1ED22930C49001E28C1 /* WAMPlaylist.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4E2B1F2229316C6001E28C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4E2B1F42293223D001E28C1 /* ViewControllers */,
+				E4E2B1F322932234001E28C1 /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4E2B1F322932234001E28C1 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4E2B1EF229316C1001E28C1 /* WAMPlaylistController.h */,
+				E4E2B1F0229316C1001E28C1 /* WAMPlaylistController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		E4E2B1F42293223D001E28C1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4E2B1F522932276001E28C1 /* WAMPlaylistListTableViewController.h */,
+				E4E2B1F622932276001E28C1 /* WAMPlaylistListTableViewController.m */,
+				E4E2B22022933AA1001E28C1 /* WAMDetailTableViewController.h */,
+				E4E2B22122933AA1001E28C1 /* WAMDetailTableViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +157,7 @@
 		E4E2B1C622930926001E28C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WAM;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = devmtn;
 				TargetAttributes = {
@@ -141,9 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E2B1D622930926001E28C1 /* ViewController.m in Sources */,
 				E4E2B1E122930929001E28C1 /* main.m in Sources */,
+				E4E2B1EA22930BCB001E28C1 /* WAMSong.m in Sources */,
 				E4E2B1D322930926001E28C1 /* AppDelegate.m in Sources */,
+				E4E2B1F722932276001E28C1 /* WAMPlaylistListTableViewController.m in Sources */,
+				E4E2B22222933AA1001E28C1 /* WAMDetailTableViewController.m in Sources */,
+				E4E2B1F1229316C1001E28C1 /* WAMPlaylistController.m in Sources */,
+				E4E2B1EE22930C49001E28C1 /* WAMPlaylist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
