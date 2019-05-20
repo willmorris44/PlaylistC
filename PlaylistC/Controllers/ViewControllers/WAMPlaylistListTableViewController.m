@@ -50,7 +50,8 @@
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
+        WAMPlaylist *playlist = [[[WAMPlaylistController shared] playlists] objectAtIndex:indexPath.row];
+        [[WAMPlaylistController shared] deletePlaylist:playlist];
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }
 }
